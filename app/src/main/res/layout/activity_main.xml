@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="189dp">
+
+
+        <TextView
+            android:id="@+id/option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:keepScreenOn="true"
+            android:text="TomaTlas"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:justificationMode="inter_word"
+            android:text="Minijuego"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:fontFamily="@font/new_rocker"
+            android:gravity="center"
+            android:keepScreenOn="true"
+            android:shadowColor="@android:color/black"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:textSize="200sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#E39FD0"
+            android:fontFamily="@font/alfa_slab_one"
+            android:gravity="center"
+            android:text="Play"
+            android:textColor="#682337"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
